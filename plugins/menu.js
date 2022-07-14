@@ -157,7 +157,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), '𝕭𝖔𝖙 • Andii ༢࿔ྀ', null, 'https://hentai.com/', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), '𝕭𝖔𝖙 • Andii ༢࿔ྀ', null, 'https://hentai.com/', '❥ࣲ፝֟͜͡◔⃟➣ ᴘʀɪᴠᴀᴛᴇ 𝕭𝕯ᴮᴷᴾ ㊧', '', '', [
       ['Donate', '/donasi'],
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
@@ -174,7 +174,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'𝕭𝖔𝖙 • Andii ༢࿔ྀ',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '❥ࣲ፝֟͜͡◔⃟➣ ᴘʀɪᴠᴀᴛᴇ 𝕭𝕯ᴮᴷᴾ ㊧',
+                                    displayText: '❥ࣲ፝֟͜͡◔⃟➣ ᴘʀɪᴠᴀᴛᴇ 𝕭𝕯ᴮᴷᴾ',
                                     url: 'https://hentai.com/'
                                 }
                             }, {
