@@ -157,7 +157,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://aiinne.github.io/', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), '𝕭𝖔𝖙 • Andii ༢࿔ྀ', null, 'https://hentai.com/', 'Website', '', '', [
       ['Donate', '/donasi'],
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
@@ -171,25 +171,25 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: text.trim(),
-                            hydratedFooterText:'Ⓟ premium | Ⓛ limit',
+                            hydratedFooterText:'𝕭𝖔𝖙 • Andii ༢࿔ྀ',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Website',
-                                    url: 'https://Ainebot.github.io/'
+                                    displayText: '❥ࣲ፝֟͜͡◔⃟➣ ᴘʀɪᴠᴀᴛᴇ 𝕭𝕯ᴮᴷᴾ ㊧',
+                                    url: 'https://hentai.com/'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi',
+                                    displayText: '𝕭𝖔𝖙 • Donasi',
                                     id: '/donasi'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Sewa',
+                                    displayText: '𝕭𝖔𝖙 • Sewa',
                                     id: '/sewa'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner',
+                                    displayText: '𝕭𝖔𝖙 • Andii ༢࿔ྀ',
                                     id: '/owner'
                                 }
                             }]
